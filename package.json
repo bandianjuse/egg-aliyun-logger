@@ -2,7 +2,6 @@
   "name": "egg-aliyun-logger",
   "version": "1.0.0",
   "description": "egg-aliyun-logger",
-  "main": "app.js",
   "directories": {
     "test": "test"
   },
