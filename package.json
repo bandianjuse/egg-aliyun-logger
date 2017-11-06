@@ -1,10 +1,9 @@
 {
-  "name": "egg-aliyun-logger",
+  "name": "egg-aliyun-logger2",
   "version": "1.0.0",
-  "description": "[![NPM version][npm-image]][npm-url]\r [![build status][travis-image]][travis-url]\r [![Test coverage][codecov-image]][codecov-url]\r [![David deps][david-image]][david-url]\r [![Known Vulnerabilities][snyk-image]][snyk-url]\r [![npm download][download-image]][download-url]",
-  "main": ".autod.conf.js",
-  "directories": {
-    "test": "test"
+  "description": "",
+  "eggPlugin": {
+    "name": "aliyunLogger"
   },
   "keywords": [
     "egg",
@@ -30,11 +29,6 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "files": [
-    "app.js",
-    "agent.js",
-    "config"
-  ],
   "scripts": {
     "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
     "test-local": "egg-bin test",
@@ -44,14 +38,22 @@
     "pkgfiles": "egg-bin pkgfiles",
     "autod": "autod"
   },
+  "files": [
+    "app.js",
+    "agent.js",
+    "config"
+  ],
+  "ci": {
+    "version": "6, 8"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bandianjuse/egg-aliyun-logger.git"
+    "url": "git+https://github.com/eggjs/egg-aliyun-logger.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bandianjuse/egg-aliyun-logger/issues"
+    "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/bandianjuse/egg-aliyun-logger#readme"
+  "homepage": "https://github.com/eggjs/egg-aliyun-logger#readme",
+  "author": "zx",
+  "license": "MIT"
 }
