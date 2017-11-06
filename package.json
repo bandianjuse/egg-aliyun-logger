@@ -30,11 +30,6 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "files": [
-    "app.js",
-    "agent.js",
-    "config"
-  ],
   "scripts": {
     "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
     "test-local": "egg-bin test",
