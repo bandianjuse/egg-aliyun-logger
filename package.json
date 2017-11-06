@@ -1,6 +1,6 @@
 {
   "name": "egg-aliyun-logger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "egg-aliyun-logger",
   "directories": {
     "test": "test"
@@ -10,7 +10,12 @@
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+	"moment": "^2.19.1",
+    "egg": "^1.4.0",
+    "egg-logger": "1.6.0",
+    "aliyun-sdk": "^1.10.19"
+  },
   "devDependencies": {
     "autod": "^2.8.0",
     "autod-egg": "^1.0.0",
