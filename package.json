@@ -1,8 +1,8 @@
 {
   "name": "egg-aliyun-logger",
   "version": "1.0.0",
-  "description": "[![NPM version][npm-image]][npm-url]\r [![build status][travis-image]][travis-url]\r [![Test coverage][codecov-image]][codecov-url]\r [![David deps][david-image]][david-url]\r [![Known Vulnerabilities][snyk-image]][snyk-url]\r [![npm download][download-image]][download-url]",
-  "main": ".autod.conf.js",
+  "description": "egg-aliyun-logger",
+  "main": "app.js",
   "directories": {
     "test": "test"
   },
